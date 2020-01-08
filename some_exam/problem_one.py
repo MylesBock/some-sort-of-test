@@ -15,6 +15,7 @@ class ProblemOne:
     def __init__(self):
         pass
 
+    # solution credit to: https://github.com/brianforan
     @staticmethod
     def transform_me(data):
         for cluster in data["clusters"]:
