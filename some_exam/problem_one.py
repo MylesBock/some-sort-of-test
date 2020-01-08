@@ -16,5 +16,25 @@ class ProblemOne:
         pass
 
     @staticmethod
-    def transform_me(some_json):
-        return False
+    def transform_me(data):
+        for cluster in data["clusters"]:
+            cluster["cluster"] = {
+                "server": cluster["server"],
+                "insecure-skip-tls-verify": cluster["insecure-skip-tls-verify"]
+            }
+            del cluster["server"]
+            del cluster["insecure-skip-tls-verify"]
+
+        for context in data["contexts"]:
+            context["context"] = {
+                "cluster": context["cluster"],
+                "namespace": context["namespace"],
+                "user": context["user"]
+            }
+            del context["cluster"]
+            del context["namespace"]
+            del context["user"]
+
+        data["users"] = [data["users"]]            
+        
+        return data
