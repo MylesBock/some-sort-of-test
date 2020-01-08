@@ -1,0 +1,18 @@
+{
+  "apiVersion": "v1",
+  "kind": "Config",
+  "clusters": [
+    {
+      "name": "a-cluster",
+      "server": "https://192.168.2.3:6443",
+      "insecure-skip-tls-verify": true
+    }
+  ],
+  "preferences": {},
+  "users": {
+    "name": "cool_dude_1977",
+    "user": {
+      "token": "64c96d8a-3239-11ea-9313-3af9d322b81e"
+    }
+  }
+}

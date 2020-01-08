@@ -1,0 +1,23 @@
+{
+  "apiVersion": "v1",
+  "kind": "Config",
+  "clusters": [
+      {
+      "name": "anvil-sit-02-rdei-system",
+      "context": {
+        "cluster": "anvil-sit-02",
+        "namespace": "rdei-system",
+        "user": "cool_dude_1977"
+      }
+    }
+  ],
+  "preferences": {},
+  "users": [
+    {
+      "name": "cool_dude_1977",
+      "user": {
+        "token": "64c96d8a-3239-11ea-9313-3af9d322b81e"
+      }
+    }
+  ]
+}
