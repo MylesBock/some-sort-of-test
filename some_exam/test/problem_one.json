@@ -1,0 +1,3277 @@
+{
+  "apiVersion": "v1",
+  "kind": "Config",
+  "clusters": [
+    {
+      "name": "northlake-ctv-01",
+      "server": "https://10.48.178.246:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-dev-dev",
+      "server": "https://anvil-dev-dev.anvil1-pre-release.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-mdhd-stage-linear-01",
+      "server": "https://10.138.56.183:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "northlake-rdei-black-01",
+      "server": "https://172.26.122.61:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "titan-ingest-01",
+      "server": "https://10.131.67.30:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "freedom-west-01",
+      "server": "https://10.48.180.113:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "richmond-01",
+      "server": "https://10.48.186.6:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-01",
+      "server": "https://anvil-sit-01.anvil-vpi-integration.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "jacksonville-01",
+      "server": "https://96.111.16.6:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-dev-linear",
+      "server": "https://anvil-dev-linear.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil2-network-test",
+      "server": "https://anvil2-network-test.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "hillsboro-sysdig-01",
+      "server": "https://10.146.43.40:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "potomac-rdei-black-01",
+      "server": "https://172.26.51.157:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-qa-uperf",
+      "server": "https://anvil-qa-uperf.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-newkirk-stage-01",
+      "server": "https://10.144.201.186:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-calgary-linear-01",
+      "server": "https://10.131.88.110:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "santa-clara-01",
+      "server": "https://10.48.198.122:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-qa-performance",
+      "server": "https://anvil-qa-perf.anvil1-pre-release.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "naples-01",
+      "server": "https://10.44.135.134:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-calgary-stage-linear-01",
+      "server": "https://10.131.88.102:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "cmc-ingest-01",
+      "server": "https://10.131.66.60:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-mdhd-01",
+      "server": "https://10.138.57.28:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "foxboro-01",
+      "server": "https://10.42.248.6:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "cox-duke-01",
+      "server": "https://10.138.0.158:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-linear-perf-01",
+      "server": "https://anvil-sit-linear-perf-01.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-calgary-stage-01",
+      "server": "https://10.131.89.106:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-wolfedale-01",
+      "server": "https://10.144.217.5:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "memphis-01",
+      "server": "https://96.111.18.36:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-perf-01",
+      "server": "https://anvil-sit-perf-01.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-hahd-linear-01",
+      "server": "https://10.138.48.87:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-wolfedale-linear-01",
+      "server": "https://10.144.216.70:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-newkirk-stage-linear-01",
+      "server": "https://10.144.200.158:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "tallahassee-01",
+      "server": "https://96.111.20.6:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-wolfedale-stage-01",
+      "server": "https://10.144.217.216:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-barlow-linear-01",
+      "server": "https://10.131.56.111:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "albuquerque-01",
+      "server": "https://10.44.75.135:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "northlake-rdei-01",
+      "server": "https://10.144.52.60:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "denver-01",
+      "server": "https://96.111.5.32:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "salt-lake-01",
+      "server": "https://10.44.178.158:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "seattle-01",
+      "server": "https://10.44.236.122:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-linear-02",
+      "server": "https://anvil-sit-linear-02.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil2-vpis-sit-01",
+      "server": "https://anvil2-vpis-sit-01.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-mdhd-stage-01",
+      "server": "https://10.138.57.121:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "cox-deer-linear-01",
+      "server": "https://10.131.231.226:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-wolfedale-stage-linear-01",
+      "server": "https://10.144.216.184:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "freedom-east-01",
+      "server": "https://10.42.154.250:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "atlanta-01",
+      "server": "https://10.48.158.122:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-qa-next",
+      "server": "https://anvil-qa-next.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "miami-01",
+      "server": "https://96.111.22.6:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-mdhd-linear-01",
+      "server": "https://10.138.56.90:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "houston-01",
+      "server": "https://10.44.187.158:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-linear-01",
+      "server": "https://anvil-sit-linear-01.anvil-vpi-integration.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-newkirk-linear-01",
+      "server": "https://10.144.200.70:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "sacramento-01",
+      "server": "https://69.252.142.133:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "nashville-01",
+      "server": "https://96.111.24.45:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-hahd-01",
+      "server": "https://10.138.49.112:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-dev-qa-master",
+      "server": "https://anvil-dev-qa-master.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-dev-next",
+      "server": "https://anvil-dev-next.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-barlow-01",
+      "server": "https://10.131.58.34:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "cox-duke-linear-01",
+      "server": "https://10.138.0.239:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "detroit-01",
+      "server": "https://10.48.208.104:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "keystone-01",
+      "server": "https://10.44.213.49:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "ashburn-rdei-01",
+      "server": "https://10.144.108.20:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-barlow-stage-linear-01",
+      "server": "https://10.131.56.103:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "ashburn-ctv-01",
+      "server": "https://10.42.127.134:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "rogers-newkirk-01",
+      "server": "https://10.144.201.5:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "portland-01",
+      "server": "https://69.240.127.32:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-hahd-stage-01",
+      "server": "https://10.138.49.57:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "twin-cities-01",
+      "server": "https://10.48.182.209:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-stage-01",
+      "server": "https://anvil-sit-stage-01.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "videotron-hahd-stage-linear-01",
+      "server": "https://10.138.48.182:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "boston-01",
+      "server": "https://10.48.201.6:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "smf-ingest-01",
+      "server": "https://10.144.149.60:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-calgary-01",
+      "server": "https://10.131.89.112:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "cox-deer-01",
+      "server": "https://10.131.231.20:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "hillsboro-rdei-01",
+      "server": "https://10.146.234.60:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-linear-stage-01",
+      "server": "https://anvil-sit-linear-stage-01.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "shaw-barlow-stage-01",
+      "server": "https://10.131.57.120:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-qa-long",
+      "server": "https://anvil-qa-long.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    },
+    {
+      "name": "anvil-sit-02",
+      "server": "https://anvil-sit-02.anvil1.rdei.comcast.net:6443",
+      "insecure-skip-tls-verify": true
+    }
+  ],
+  "contexts": [
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-portworx"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-rdei-system"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-s8live-dcf"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "s8live-dcf-altcon",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-s8live-dcf-altcon"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-s8live-smf"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "s8live-smf-altcon",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-s8live-smf-altcon"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-s8live-titan"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "s8live-titan-altcon",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-s8live-titan-altcon"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "sysdiglet-comcast",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-sysdiglet-comcast"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "sysdiglet-cox",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-sysdiglet-cox"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "sysdiglet-rogers",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-sysdiglet-rogers"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "sysdiglet-shaw",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-sysdiglet-shaw"
+    },
+    {
+      "cluster": "northlake-ctv-01",
+      "namespace": "sysdiglet-videotron",
+      "user": "cool_dude_1977",
+      "name": "northlake-ctv-01-sysdiglet-videotron"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "altcon-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-altcon-test"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "andawg-locust",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-andawg-locust"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "anvil-dev-dev-staging",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-anvil-dev-dev-staging"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "auto-qa-tests",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-auto-qa-tests"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "binding-pods-events",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-binding-pods-events"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-blockrunner"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "boa-port-reserve",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-boa-port-reserve"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "bro-ns",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-bro-ns"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "cephpoc",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-cephpoc"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "cleversafe-stats",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-cleversafe-stats"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "comcast-sysdig-oiv-int",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-comcast-sysdig-oiv-int"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "fin-demo",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-fin-demo"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "hatjitsu",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-hatjitsu"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "hpa-testing",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-hpa-testing"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "k8sen",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-k8sen"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "kshells",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-kshells"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "labweek-dai",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-labweek-dai"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "lb-client",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-lb-client"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "lb-test-andrew",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-lb-test-andrew"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "luke-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-luke-test"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "memsql-capacity-modeling",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-memsql-capacity-modeling"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "mux",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-mux"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-portworx"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "postgres-stage-slave",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-postgres-stage-slave"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "prad-vitess-poc",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-prad-vitess-poc"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "prometheus-sla",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-prometheus-sla"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "pulsar",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-pulsar"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "px-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-px-test"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "rdei-demo-1",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-rdei-demo-1"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "rdei-demo-2",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-rdei-demo-2"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "rdei-demo-3",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-rdei-demo-3"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "rdei-stage",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-rdei-stage"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-rdei-system"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "redis-cluster-aravind",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-redis-cluster-aravind"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "rogers-oiv-int",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-rogers-oiv-int"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "rogers-sysdig-evanios-int",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-rogers-sysdig-evanios-int"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "sandcastle",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-sandcastle"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "sde-cannonfodder",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-sde-cannonfodder"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "sharded-varnish-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-sharded-varnish-test"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "shaw-sysdig-evanios-int",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-shaw-sysdig-evanios-int"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "staging-rdei",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-staging-rdei"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "sumatra-elastic",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-sumatra-elastic"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "test-herald",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-test-herald"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "test-space",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-test-space"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "thirumaltest",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-thirumaltest"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "venturi",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-venturi"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "victoria-metrics",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-victoria-metrics"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "video",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-video"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "video-shield-demo",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-video-shield-demo"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "videotron-sysdig-evanios-int",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-videotron-sysdig-evanios-int"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "vod-dai-integration",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-vod-dai-integration"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "vod-dai-integration-hls",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-vod-dai-integration-hls"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "vod-test-sde",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-vod-test-sde"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "vod-test-space",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-vod-test-space"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "voddai-dash-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-voddai-dash-test"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "voddai-hls-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-voddai-hls-test"
+    },
+    {
+      "cluster": "anvil-dev-dev",
+      "namespace": "vpe-test-2",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-dev-vpe-test-2"
+    },
+    {
+      "cluster": "videotron-mdhd-stage-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-stage-linear-01-4klinear"
+    },
+    {
+      "cluster": "videotron-mdhd-stage-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-stage-linear-01-linearslate"
+    },
+    {
+      "cluster": "videotron-mdhd-stage-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-stage-linear-01-rdei-system"
+    },
+    {
+      "cluster": "videotron-mdhd-stage-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-stage-linear-01-t6linear"
+    },
+    {
+      "cluster": "videotron-mdhd-stage-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-stage-linear-01-tvelinear"
+    },
+    {
+      "cluster": "northlake-rdei-black-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-black-01-portworx"
+    },
+    {
+      "cluster": "northlake-rdei-black-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-black-01-rdei-system"
+    },
+    {
+      "cluster": "titan-ingest-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "titan-ingest-01-blockrunner"
+    },
+    {
+      "cluster": "titan-ingest-01",
+      "namespace": "linear-prod",
+      "user": "cool_dude_1977",
+      "name": "titan-ingest-01-linear-prod"
+    },
+    {
+      "cluster": "titan-ingest-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "titan-ingest-01-portworx"
+    },
+    {
+      "cluster": "titan-ingest-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "titan-ingest-01-rdei-system"
+    },
+    {
+      "cluster": "titan-ingest-01",
+      "namespace": "titan-dashlp",
+      "user": "cool_dude_1977",
+      "name": "titan-ingest-01-titan-dashlp"
+    },
+    {
+      "cluster": "titan-ingest-01",
+      "namespace": "titan-dashlp-origin",
+      "user": "cool_dude_1977",
+      "name": "titan-ingest-01-titan-dashlp-origin"
+    },
+    {
+      "cluster": "freedom-west-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "freedom-west-01-portworx"
+    },
+    {
+      "cluster": "freedom-west-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "freedom-west-01-rdei-system"
+    },
+    {
+      "cluster": "freedom-west-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "freedom-west-01-s8live-dcf"
+    },
+    {
+      "cluster": "freedom-west-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "freedom-west-01-s8live-smf"
+    },
+    {
+      "cluster": "freedom-west-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "freedom-west-01-s8live-titan"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-blockrunner"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-portworx"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-rdei-system"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-s8live-dcf"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "s8live-dcf-altcon",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-s8live-dcf-altcon"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-s8live-smf"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "s8live-smf-altcon",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-s8live-smf-altcon"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-s8live-titan"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "s8live-titan-altcon",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-s8live-titan-altcon"
+    },
+    {
+      "cluster": "richmond-01",
+      "namespace": "stpm-dashlp-dcf",
+      "user": "cool_dude_1977",
+      "name": "richmond-01-stpm-dashlp-dcf"
+    },
+    {
+      "cluster": "anvil-sit-01",
+      "namespace": "andawg-locust",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-01-andawg-locust"
+    },
+    {
+      "cluster": "anvil-sit-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-01-blockrunner"
+    },
+    {
+      "cluster": "anvil-sit-01",
+      "namespace": "pod-restarter",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-01-pod-restarter"
+    },
+    {
+      "cluster": "anvil-sit-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-01-portworx"
+    },
+    {
+      "cluster": "anvil-sit-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-01-rdei-system"
+    },
+    {
+      "cluster": "jacksonville-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "jacksonville-01-portworx"
+    },
+    {
+      "cluster": "jacksonville-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "jacksonville-01-rdei-system"
+    },
+    {
+      "cluster": "jacksonville-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "jacksonville-01-s8live-dcf"
+    },
+    {
+      "cluster": "jacksonville-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "jacksonville-01-s8live-smf"
+    },
+    {
+      "cluster": "jacksonville-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "jacksonville-01-s8live-titan"
+    },
+    {
+      "cluster": "anvil-dev-linear",
+      "namespace": "andawg-locust",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-linear-andawg-locust"
+    },
+    {
+      "cluster": "anvil-dev-linear",
+      "namespace": "linear5",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-linear-linear5"
+    },
+    {
+      "cluster": "anvil-dev-linear",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-linear-rdei-system"
+    },
+    {
+      "cluster": "anvil2-network-test",
+      "namespace": "lb-test-andrew",
+      "user": "cool_dude_1977",
+      "name": "anvil2-network-test-lb-test-andrew"
+    },
+    {
+      "cluster": "anvil2-network-test",
+      "namespace": "locust",
+      "user": "cool_dude_1977",
+      "name": "anvil2-network-test-locust"
+    },
+    {
+      "cluster": "anvil2-network-test",
+      "namespace": "perftest",
+      "user": "cool_dude_1977",
+      "name": "anvil2-network-test-perftest"
+    },
+    {
+      "cluster": "hillsboro-sysdig-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-sysdig-01-rdei-system"
+    },
+    {
+      "cluster": "potomac-rdei-black-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "potomac-rdei-black-01-rdei-system"
+    },
+    {
+      "cluster": "anvil-qa-uperf",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-uperf-blockrunner"
+    },
+    {
+      "cluster": "anvil-qa-uperf",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-uperf-portworx"
+    },
+    {
+      "cluster": "anvil-qa-uperf",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-uperf-rdei-system"
+    },
+    {
+      "cluster": "anvil-qa-uperf",
+      "namespace": "rdei-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-uperf-rdei-test"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-01",
+      "namespace": "play-ground",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-01-play-ground"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-01",
+      "namespace": "rdei-test",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-01-rdei-test"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-01",
+      "namespace": "redis-cluster",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-01-redis-cluster"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-01",
+      "namespace": "redis-ha",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-01-redis-ha"
+    },
+    {
+      "cluster": "shaw-calgary-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-linear-01-linearslate"
+    },
+    {
+      "cluster": "shaw-calgary-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-linear-01-t6linear"
+    },
+    {
+      "cluster": "shaw-calgary-linear-01",
+      "namespace": "test-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-linear-01-test-system"
+    },
+    {
+      "cluster": "shaw-calgary-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-linear-01-tvelinear"
+    },
+    {
+      "cluster": "shaw-calgary-linear-01",
+      "namespace": "video",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-linear-01-video"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-portworx"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-rdei-system"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-s8live-dcf"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "s8live-dcf-altcon",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-s8live-dcf-altcon"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-s8live-smf"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "s8live-smf-altcon",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-s8live-smf-altcon"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-s8live-titan"
+    },
+    {
+      "cluster": "santa-clara-01",
+      "namespace": "s8live-titan-altcon",
+      "user": "cool_dude_1977",
+      "name": "santa-clara-01-s8live-titan-altcon"
+    },
+    {
+      "cluster": "anvil-qa-performance",
+      "namespace": "comcast-dash",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-performance-comcast-dash"
+    },
+    {
+      "cluster": "anvil-qa-performance",
+      "namespace": "comcast-hls",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-performance-comcast-hls"
+    },
+    {
+      "cluster": "anvil-qa-performance",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-performance-portworx"
+    },
+    {
+      "cluster": "anvil-qa-performance",
+      "namespace": "prad-memsql-poc",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-performance-prad-memsql-poc"
+    },
+    {
+      "cluster": "anvil-qa-performance",
+      "namespace": "rogers-hls",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-performance-rogers-hls"
+    },
+    {
+      "cluster": "anvil-qa-performance",
+      "namespace": "video-shield-demo",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-performance-video-shield-demo"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "naples-01-portworx"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "naples-01-rdei-system"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "naples-01-s8live-dcf"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "s8live-dcf-altcon",
+      "user": "cool_dude_1977",
+      "name": "naples-01-s8live-dcf-altcon"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "naples-01-s8live-smf"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "s8live-smf-altcon",
+      "user": "cool_dude_1977",
+      "name": "naples-01-s8live-smf-altcon"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "naples-01-s8live-titan"
+    },
+    {
+      "cluster": "naples-01",
+      "namespace": "s8live-titan-altcon",
+      "user": "cool_dude_1977",
+      "name": "naples-01-s8live-titan-altcon"
+    },
+    {
+      "cluster": "shaw-calgary-stage-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-stage-linear-01-linearslate"
+    },
+    {
+      "cluster": "shaw-calgary-stage-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-stage-linear-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-calgary-stage-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-stage-linear-01-t6linear"
+    },
+    {
+      "cluster": "shaw-calgary-stage-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-stage-linear-01-tvelinear"
+    },
+    {
+      "cluster": "cmc-ingest-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "cmc-ingest-01-blockrunner"
+    },
+    {
+      "cluster": "cmc-ingest-01",
+      "namespace": "dcf-dashlp",
+      "user": "cool_dude_1977",
+      "name": "cmc-ingest-01-dcf-dashlp"
+    },
+    {
+      "cluster": "cmc-ingest-01",
+      "namespace": "linear-prod",
+      "user": "cool_dude_1977",
+      "name": "cmc-ingest-01-linear-prod"
+    },
+    {
+      "cluster": "cmc-ingest-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "cmc-ingest-01-rdei-system"
+    },
+    {
+      "cluster": "videotron-mdhd-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-01-rdei-system"
+    },
+    {
+      "cluster": "foxboro-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "foxboro-01-portworx"
+    },
+    {
+      "cluster": "foxboro-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "foxboro-01-rdei-system"
+    },
+    {
+      "cluster": "foxboro-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "foxboro-01-s8live-dcf"
+    },
+    {
+      "cluster": "foxboro-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "foxboro-01-s8live-smf"
+    },
+    {
+      "cluster": "foxboro-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "foxboro-01-s8live-titan"
+    },
+    {
+      "cluster": "cox-duke-01",
+      "namespace": "altcon-vod-hlsv7",
+      "user": "cool_dude_1977",
+      "name": "cox-duke-01-altcon-vod-hlsv7"
+    },
+    {
+      "cluster": "cox-duke-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "cox-duke-01-rdei-system"
+    },
+    {
+      "cluster": "anvil-sit-linear-perf-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-perf-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-calgary-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-stage-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-wolfedale-01",
+      "namespace": "redis-cluster-prod",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-01-redis-cluster-prod"
+    },
+    {
+      "cluster": "rogers-wolfedale-01",
+      "namespace": "reserve-port",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-01-reserve-port"
+    },
+    {
+      "cluster": "rogers-wolfedale-01",
+      "namespace": "vod-dai",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-01-vod-dai"
+    },
+    {
+      "cluster": "memphis-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "memphis-01-portworx"
+    },
+    {
+      "cluster": "memphis-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "memphis-01-rdei-system"
+    },
+    {
+      "cluster": "memphis-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "memphis-01-s8live-dcf"
+    },
+    {
+      "cluster": "memphis-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "memphis-01-s8live-smf"
+    },
+    {
+      "cluster": "memphis-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "memphis-01-s8live-titan"
+    },
+    {
+      "cluster": "anvil-sit-perf-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-perf-01-rdei-system"
+    },
+    {
+      "cluster": "videotron-hahd-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-linear-01-4klinear"
+    },
+    {
+      "cluster": "videotron-hahd-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-linear-01-linearslate"
+    },
+    {
+      "cluster": "videotron-hahd-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-linear-01-rdei-system"
+    },
+    {
+      "cluster": "videotron-hahd-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-linear-01-t6linear"
+    },
+    {
+      "cluster": "videotron-hahd-linear-01",
+      "namespace": "t6linear-pip-stage",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-linear-01-t6linear-pip-stage"
+    },
+    {
+      "cluster": "videotron-hahd-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-linear-01-tvelinear"
+    },
+    {
+      "cluster": "rogers-wolfedale-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-linear-01-4klinear"
+    },
+    {
+      "cluster": "rogers-wolfedale-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-linear-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-wolfedale-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-linear-01-t6linear"
+    },
+    {
+      "cluster": "rogers-wolfedale-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-linear-01-tvelinear"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-4klinear"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "fourier",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-fourier"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "linear-training-01",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-linear-training-01"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "platform-load-balancer",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-platform-load-balancer"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-t6linear"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-tvelinear"
+    },
+    {
+      "cluster": "rogers-newkirk-stage-linear-01",
+      "namespace": "tvelinear-sde",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-stage-linear-01-tvelinear-sde"
+    },
+    {
+      "cluster": "tallahassee-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "tallahassee-01-portworx"
+    },
+    {
+      "cluster": "tallahassee-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "tallahassee-01-rdei-system"
+    },
+    {
+      "cluster": "tallahassee-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "tallahassee-01-s8live-dcf"
+    },
+    {
+      "cluster": "tallahassee-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "tallahassee-01-s8live-smf"
+    },
+    {
+      "cluster": "tallahassee-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "tallahassee-01-s8live-titan"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-01",
+      "namespace": "rdei-test",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-01-rdei-test"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-01",
+      "namespace": "redis-cluster",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-01-redis-cluster"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-01",
+      "namespace": "redis-ha",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-01-redis-ha"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-01",
+      "namespace": "vex-dash",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-01-vex-dash"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-01",
+      "namespace": "vex-hls",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-01-vex-hls"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-01",
+      "namespace": "vex-hlsv7",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-01-vex-hlsv7"
+    },
+    {
+      "cluster": "shaw-barlow-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-linear-01-linearslate"
+    },
+    {
+      "cluster": "shaw-barlow-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-linear-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-barlow-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-linear-01-t6linear"
+    },
+    {
+      "cluster": "shaw-barlow-linear-01",
+      "namespace": "t6linear-super8-ssimwave",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-linear-01-t6linear-super8-ssimwave"
+    },
+    {
+      "cluster": "shaw-barlow-linear-01",
+      "namespace": "test",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-linear-01-test"
+    },
+    {
+      "cluster": "shaw-barlow-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-linear-01-tvelinear"
+    },
+    {
+      "cluster": "shaw-barlow-linear-01",
+      "namespace": "video",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-linear-01-video"
+    },
+    {
+      "cluster": "albuquerque-01",
+      "namespace": "albq-dashlp",
+      "user": "cool_dude_1977",
+      "name": "albuquerque-01-albq-dashlp"
+    },
+    {
+      "cluster": "albuquerque-01",
+      "namespace": "albq-dashlp-cdn",
+      "user": "cool_dude_1977",
+      "name": "albuquerque-01-albq-dashlp-cdn"
+    },
+    {
+      "cluster": "albuquerque-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "albuquerque-01-portworx"
+    },
+    {
+      "cluster": "albuquerque-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "albuquerque-01-rdei-system"
+    },
+    {
+      "cluster": "albuquerque-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "albuquerque-01-s8live-dcf"
+    },
+    {
+      "cluster": "albuquerque-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "albuquerque-01-s8live-smf"
+    },
+    {
+      "cluster": "albuquerque-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "albuquerque-01-s8live-titan"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "altcon-prod-hlsv7",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-altcon-prod-hlsv7"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "bgp-test",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-bgp-test"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-blockrunner"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "linear-prod-dcf",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-linear-prod-dcf"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "linear-prod-smf",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-linear-prod-smf"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "linear-prod-titan",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-linear-prod-titan"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "molehill-prod-secondary",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-molehill-prod-secondary"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "port-reserve",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-port-reserve"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-portworx"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "postgres-migrate-test",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-postgres-migrate-test"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "prometheus-federation",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-prometheus-federation"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "prometheus-memsql-rio",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-prometheus-memsql-rio"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "px-env-test",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-px-env-test"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-rdei-system"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "redis-cluster-prod",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-redis-cluster-prod"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "redis-vod-hls",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-redis-vod-hls"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "staging-rdei",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-staging-rdei"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "vod-dai-cmcsa",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-vod-dai-cmcsa"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "vod-dai-hls",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-vod-dai-hls"
+    },
+    {
+      "cluster": "northlake-rdei-01",
+      "namespace": "vpe-linear",
+      "user": "cool_dude_1977",
+      "name": "northlake-rdei-01-vpe-linear"
+    },
+    {
+      "cluster": "denver-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "denver-01-portworx"
+    },
+    {
+      "cluster": "denver-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "denver-01-rdei-system"
+    },
+    {
+      "cluster": "denver-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "denver-01-s8live-dcf"
+    },
+    {
+      "cluster": "denver-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "denver-01-s8live-smf"
+    },
+    {
+      "cluster": "denver-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "denver-01-s8live-titan"
+    },
+    {
+      "cluster": "salt-lake-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "salt-lake-01-portworx"
+    },
+    {
+      "cluster": "salt-lake-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "salt-lake-01-rdei-system"
+    },
+    {
+      "cluster": "salt-lake-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "salt-lake-01-s8live-dcf"
+    },
+    {
+      "cluster": "salt-lake-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "salt-lake-01-s8live-smf"
+    },
+    {
+      "cluster": "salt-lake-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "salt-lake-01-s8live-titan"
+    },
+    {
+      "cluster": "seattle-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "seattle-01-portworx"
+    },
+    {
+      "cluster": "seattle-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "seattle-01-rdei-system"
+    },
+    {
+      "cluster": "seattle-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "seattle-01-s8live-dcf"
+    },
+    {
+      "cluster": "seattle-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "seattle-01-s8live-smf"
+    },
+    {
+      "cluster": "seattle-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "seattle-01-s8live-titan"
+    },
+    {
+      "cluster": "anvil-sit-linear-02",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-02-blockrunner"
+    },
+    {
+      "cluster": "anvil-sit-linear-02",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-02-portworx"
+    },
+    {
+      "cluster": "anvil-sit-linear-02",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-02-rdei-system"
+    },
+    {
+      "cluster": "anvil2-vpis-sit-01",
+      "namespace": "andawg-locust",
+      "user": "cool_dude_1977",
+      "name": "anvil2-vpis-sit-01-andawg-locust"
+    },
+    {
+      "cluster": "videotron-mdhd-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-stage-01-rdei-system"
+    },
+    {
+      "cluster": "cox-deer-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-linear-01-rdei-system"
+    },
+    {
+      "cluster": "cox-deer-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-linear-01-t6linear"
+    },
+    {
+      "cluster": "cox-deer-linear-01",
+      "namespace": "t6linear-adult",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-linear-01-t6linear-adult"
+    },
+    {
+      "cluster": "cox-deer-linear-01",
+      "namespace": "test",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-linear-01-test"
+    },
+    {
+      "cluster": "cox-deer-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-linear-01-tvelinear"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-linear-01-4klinear"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-linear-01",
+      "namespace": "fourier",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-linear-01-fourier"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-linear-01",
+      "namespace": "platform-load-balancer",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-linear-01-platform-load-balancer"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-linear-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-linear-01-t6linear"
+    },
+    {
+      "cluster": "rogers-wolfedale-stage-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-wolfedale-stage-linear-01-tvelinear"
+    },
+    {
+      "cluster": "freedom-east-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "freedom-east-01-portworx"
+    },
+    {
+      "cluster": "freedom-east-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "freedom-east-01-rdei-system"
+    },
+    {
+      "cluster": "freedom-east-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "freedom-east-01-s8live-dcf"
+    },
+    {
+      "cluster": "freedom-east-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "freedom-east-01-s8live-smf"
+    },
+    {
+      "cluster": "freedom-east-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "freedom-east-01-s8live-titan"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-portworx"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-rdei-system"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-s8live-dcf"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "s8live-dcf-altcon",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-s8live-dcf-altcon"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-s8live-smf"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "s8live-smf-altcon",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-s8live-smf-altcon"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-s8live-titan"
+    },
+    {
+      "cluster": "atlanta-01",
+      "namespace": "s8live-titan-altcon",
+      "user": "cool_dude_1977",
+      "name": "atlanta-01-s8live-titan-altcon"
+    },
+    {
+      "cluster": "anvil-qa-next",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-next-rdei-system"
+    },
+    {
+      "cluster": "miami-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "miami-01-portworx"
+    },
+    {
+      "cluster": "miami-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "miami-01-rdei-system"
+    },
+    {
+      "cluster": "miami-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "miami-01-s8live-dcf"
+    },
+    {
+      "cluster": "miami-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "miami-01-s8live-smf"
+    },
+    {
+      "cluster": "miami-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "miami-01-s8live-titan"
+    },
+    {
+      "cluster": "videotron-mdhd-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-linear-01-4klinear"
+    },
+    {
+      "cluster": "videotron-mdhd-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-linear-01-linearslate"
+    },
+    {
+      "cluster": "videotron-mdhd-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-linear-01-rdei-system"
+    },
+    {
+      "cluster": "videotron-mdhd-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-linear-01-t6linear"
+    },
+    {
+      "cluster": "videotron-mdhd-linear-01",
+      "namespace": "t6linear-super8-nodrm",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-linear-01-t6linear-super8-nodrm"
+    },
+    {
+      "cluster": "videotron-mdhd-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-mdhd-linear-01-tvelinear"
+    },
+    {
+      "cluster": "houston-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "houston-01-portworx"
+    },
+    {
+      "cluster": "houston-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "houston-01-rdei-system"
+    },
+    {
+      "cluster": "houston-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "houston-01-s8live-dcf"
+    },
+    {
+      "cluster": "houston-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "houston-01-s8live-smf"
+    },
+    {
+      "cluster": "houston-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "houston-01-s8live-titan"
+    },
+    {
+      "cluster": "anvil-sit-linear-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-01-blockrunner"
+    },
+    {
+      "cluster": "anvil-sit-linear-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-01-portworx"
+    },
+    {
+      "cluster": "anvil-sit-linear-01",
+      "namespace": "prometheus-federation",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-01-prometheus-federation"
+    },
+    {
+      "cluster": "anvil-sit-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-newkirk-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-linear-01-4klinear"
+    },
+    {
+      "cluster": "rogers-newkirk-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-linear-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-newkirk-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-linear-01-t6linear"
+    },
+    {
+      "cluster": "rogers-newkirk-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-linear-01-tvelinear"
+    },
+    {
+      "cluster": "sacramento-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "sacramento-01-portworx"
+    },
+    {
+      "cluster": "sacramento-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "sacramento-01-rdei-system"
+    },
+    {
+      "cluster": "sacramento-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "sacramento-01-s8live-dcf"
+    },
+    {
+      "cluster": "sacramento-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "sacramento-01-s8live-smf"
+    },
+    {
+      "cluster": "sacramento-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "sacramento-01-s8live-titan"
+    },
+    {
+      "cluster": "nashville-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "nashville-01-portworx"
+    },
+    {
+      "cluster": "nashville-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "nashville-01-rdei-system"
+    },
+    {
+      "cluster": "nashville-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "nashville-01-s8live-dcf"
+    },
+    {
+      "cluster": "nashville-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "nashville-01-s8live-smf"
+    },
+    {
+      "cluster": "nashville-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "nashville-01-s8live-titan"
+    },
+    {
+      "cluster": "videotron-hahd-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-01-rdei-system"
+    },
+    {
+      "cluster": "anvil-dev-qa-master",
+      "namespace": "andresfernandeznamespace1",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-qa-master-andresfernandeznamespace1"
+    },
+    {
+      "cluster": "anvil-dev-qa-master",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-qa-master-rdei-system"
+    },
+    {
+      "cluster": "anvil-dev-next",
+      "namespace": "andawg-locust",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-next-andawg-locust"
+    },
+    {
+      "cluster": "anvil-dev-next",
+      "namespace": "click-wc1",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-next-click-wc1"
+    },
+    {
+      "cluster": "anvil-dev-next",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-dev-next-rdei-system"
+    },
+    {
+      "cluster": "shaw-barlow-01",
+      "namespace": "nonvideo",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-01-nonvideo"
+    },
+    {
+      "cluster": "shaw-barlow-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-barlow-01",
+      "namespace": "t6linear-altcon",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-01-t6linear-altcon"
+    },
+    {
+      "cluster": "shaw-barlow-01",
+      "namespace": "tvelinear-altcon",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-01-tvelinear-altcon"
+    },
+    {
+      "cluster": "cox-duke-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "cox-duke-linear-01-rdei-system"
+    },
+    {
+      "cluster": "cox-duke-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "cox-duke-linear-01-t6linear"
+    },
+    {
+      "cluster": "cox-duke-linear-01",
+      "namespace": "t6linear-adult",
+      "user": "cool_dude_1977",
+      "name": "cox-duke-linear-01-t6linear-adult"
+    },
+    {
+      "cluster": "cox-duke-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "cox-duke-linear-01-tvelinear"
+    },
+    {
+      "cluster": "detroit-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "detroit-01-portworx"
+    },
+    {
+      "cluster": "detroit-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "detroit-01-rdei-system"
+    },
+    {
+      "cluster": "detroit-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "detroit-01-s8live-dcf"
+    },
+    {
+      "cluster": "detroit-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "detroit-01-s8live-smf"
+    },
+    {
+      "cluster": "detroit-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "detroit-01-s8live-titan"
+    },
+    {
+      "cluster": "keystone-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "keystone-01-portworx"
+    },
+    {
+      "cluster": "keystone-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "keystone-01-rdei-system"
+    },
+    {
+      "cluster": "keystone-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "keystone-01-s8live-dcf"
+    },
+    {
+      "cluster": "keystone-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "keystone-01-s8live-smf"
+    },
+    {
+      "cluster": "keystone-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "keystone-01-s8live-titan"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "altcon-prod-hlsv7",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-altcon-prod-hlsv7"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "altcon-vault-001",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-altcon-vault-001"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-blockrunner"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "lb-test",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-lb-test"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "linear-prod-dcf",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-linear-prod-dcf"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "linear-prod-smf",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-linear-prod-smf"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "linear-prod-titan",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-linear-prod-titan"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "molehill-prod-secondary",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-molehill-prod-secondary"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "nodeport-reserve",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-nodeport-reserve"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-portworx"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "prometheus-federation",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-prometheus-federation"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "rdei-replica",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-rdei-replica"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "rdei-sso",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-rdei-sso"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-rdei-system"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "redis-cluster-prod",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-redis-cluster-prod"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "vod-dai-cmcsa",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-vod-dai-cmcsa"
+    },
+    {
+      "cluster": "ashburn-rdei-01",
+      "namespace": "vod-dai-hls",
+      "user": "cool_dude_1977",
+      "name": "ashburn-rdei-01-vod-dai-hls"
+    },
+    {
+      "cluster": "shaw-barlow-stage-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-stage-linear-01-linearslate"
+    },
+    {
+      "cluster": "shaw-barlow-stage-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-stage-linear-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-barlow-stage-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-stage-linear-01-t6linear"
+    },
+    {
+      "cluster": "shaw-barlow-stage-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-stage-linear-01-tvelinear"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-portworx"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-rdei-system"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-s8live-dcf"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "s8live-dcf-altcon",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-s8live-dcf-altcon"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-s8live-smf"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "s8live-smf-altcon",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-s8live-smf-altcon"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-s8live-titan"
+    },
+    {
+      "cluster": "ashburn-ctv-01",
+      "namespace": "s8live-titan-altcon",
+      "user": "cool_dude_1977",
+      "name": "ashburn-ctv-01-s8live-titan-altcon"
+    },
+    {
+      "cluster": "rogers-newkirk-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-01-rdei-system"
+    },
+    {
+      "cluster": "rogers-newkirk-01",
+      "namespace": "redis-cluster-prod",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-01-redis-cluster-prod"
+    },
+    {
+      "cluster": "rogers-newkirk-01",
+      "namespace": "uni-test",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-01-uni-test"
+    },
+    {
+      "cluster": "rogers-newkirk-01",
+      "namespace": "vod-dai",
+      "user": "cool_dude_1977",
+      "name": "rogers-newkirk-01-vod-dai"
+    },
+    {
+      "cluster": "portland-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "portland-01-portworx"
+    },
+    {
+      "cluster": "portland-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "portland-01-rdei-system"
+    },
+    {
+      "cluster": "portland-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "portland-01-s8live-dcf"
+    },
+    {
+      "cluster": "portland-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "portland-01-s8live-smf"
+    },
+    {
+      "cluster": "portland-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "portland-01-s8live-titan"
+    },
+    {
+      "cluster": "videotron-hahd-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-stage-01-rdei-system"
+    },
+    {
+      "cluster": "twin-cities-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "twin-cities-01-portworx"
+    },
+    {
+      "cluster": "twin-cities-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "twin-cities-01-rdei-system"
+    },
+    {
+      "cluster": "twin-cities-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "twin-cities-01-s8live-dcf"
+    },
+    {
+      "cluster": "twin-cities-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "twin-cities-01-s8live-smf"
+    },
+    {
+      "cluster": "twin-cities-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "twin-cities-01-s8live-titan"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "andawg-locust",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-andawg-locust"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "ipvod-4k-functional",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-ipvod-4k-functional"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "ipvod-ad-dash-functional",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-ipvod-ad-dash-functional"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "ipvod-ad-hls-functional",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-ipvod-ad-hls-functional"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "ipvod-ad-hlsv7-functional",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-ipvod-ad-hlsv7-functional"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "ipvod-t6-functional",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-ipvod-t6-functional"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "ipvod-tve-functional",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-ipvod-tve-functional"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-portworx"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-rdei-system"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "rio-performance",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-rio-performance"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "rio-prometheus-performance",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-rio-prometheus-performance"
+    },
+    {
+      "cluster": "anvil-sit-stage-01",
+      "namespace": "rio-zookeeper-performance",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-stage-01-rio-zookeeper-performance"
+    },
+    {
+      "cluster": "videotron-hahd-stage-linear-01",
+      "namespace": "4klinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-stage-linear-01-4klinear"
+    },
+    {
+      "cluster": "videotron-hahd-stage-linear-01",
+      "namespace": "linearslate",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-stage-linear-01-linearslate"
+    },
+    {
+      "cluster": "videotron-hahd-stage-linear-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-stage-linear-01-rdei-system"
+    },
+    {
+      "cluster": "videotron-hahd-stage-linear-01",
+      "namespace": "t6linear",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-stage-linear-01-t6linear"
+    },
+    {
+      "cluster": "videotron-hahd-stage-linear-01",
+      "namespace": "tvelinear",
+      "user": "cool_dude_1977",
+      "name": "videotron-hahd-stage-linear-01-tvelinear"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "boston-01-portworx"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "boston-01-rdei-system"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "s8live-dcf",
+      "user": "cool_dude_1977",
+      "name": "boston-01-s8live-dcf"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "s8live-dcf-altcon",
+      "user": "cool_dude_1977",
+      "name": "boston-01-s8live-dcf-altcon"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "s8live-smf",
+      "user": "cool_dude_1977",
+      "name": "boston-01-s8live-smf"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "s8live-smf-altcon",
+      "user": "cool_dude_1977",
+      "name": "boston-01-s8live-smf-altcon"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "s8live-titan",
+      "user": "cool_dude_1977",
+      "name": "boston-01-s8live-titan"
+    },
+    {
+      "cluster": "boston-01",
+      "namespace": "s8live-titan-altcon",
+      "user": "cool_dude_1977",
+      "name": "boston-01-s8live-titan-altcon"
+    },
+    {
+      "cluster": "smf-ingest-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "smf-ingest-01-blockrunner"
+    },
+    {
+      "cluster": "smf-ingest-01",
+      "namespace": "linear-prod",
+      "user": "cool_dude_1977",
+      "name": "smf-ingest-01-linear-prod"
+    },
+    {
+      "cluster": "smf-ingest-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "smf-ingest-01-portworx"
+    },
+    {
+      "cluster": "smf-ingest-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "smf-ingest-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-calgary-01",
+      "namespace": "nonvideo",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-01-nonvideo"
+    },
+    {
+      "cluster": "shaw-calgary-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-calgary-01",
+      "namespace": "t6linear-altcon",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-01-t6linear-altcon"
+    },
+    {
+      "cluster": "shaw-calgary-01",
+      "namespace": "tvelinear-altcon",
+      "user": "cool_dude_1977",
+      "name": "shaw-calgary-01-tvelinear-altcon"
+    },
+    {
+      "cluster": "cox-deer-01",
+      "namespace": "altcon-vod-hlsv7",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-01-altcon-vod-hlsv7"
+    },
+    {
+      "cluster": "cox-deer-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-01-rdei-system"
+    },
+    {
+      "cluster": "cox-deer-01",
+      "namespace": "vod-dai",
+      "user": "cool_dude_1977",
+      "name": "cox-deer-01-vod-dai"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "acr",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-acr"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "altcon-prod-hlsv7",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-altcon-prod-hlsv7"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-blockrunner"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "comcast-sysdig-evanios-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-comcast-sysdig-evanios-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "comcast-sysdig-oiv-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-comcast-sysdig-oiv-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "dai-dash",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-dai-dash"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "dai-hlsv7",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-dai-hlsv7"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "helio-stage",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-helio-stage"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "ipvodad-stage",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-ipvodad-stage"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "lb-test",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-lb-test"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "linear-prod-dcf",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-linear-prod-dcf"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "linear-prod-smf",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-linear-prod-smf"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "linear-prod-titan",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-linear-prod-titan"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "port-reserve",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-port-reserve"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-portworx"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "prometheus-federation",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-prometheus-federation"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "prometheus-memsql-rio",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-prometheus-memsql-rio"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "px-demo",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-px-demo"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "quay-enterprise",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-quay-enterprise"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "rdei",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-rdei"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "redis-cluster-prod",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-redis-cluster-prod"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "rogers-oiv-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-rogers-oiv-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "rogers-sysdig-evanios-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-rogers-sysdig-evanios-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "sentinel-stage",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-sentinel-stage"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "shaw-sysdig-evanios-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-shaw-sysdig-evanios-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "shaw-sysdig-oiv-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-shaw-sysdig-oiv-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "stage-lane",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-stage-lane"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "stage-lane-ad",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-stage-lane-ad"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "vex-hls",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-vex-hls"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "vex-stage",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-vex-stage"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "videotron-sysdig-evanios-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-videotron-sysdig-evanios-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "videotrondiglet-sysdig-oiv-int",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-videotrondiglet-sysdig-oiv-int"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "vl-pre-stage-vod",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-vl-pre-stage-vod"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "vod-dai-cmcsa",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-vod-dai-cmcsa"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "vod-dai-hls",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-vod-dai-hls"
+    },
+    {
+      "cluster": "hillsboro-rdei-01",
+      "namespace": "vpe",
+      "user": "cool_dude_1977",
+      "name": "hillsboro-rdei-01-vpe"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "altcon-test",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-altcon-test"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "bsg-lds-stage",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-bsg-lds-stage"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "bsg-linear-stage",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-bsg-linear-stage"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "comcast-linear-stage",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-comcast-linear-stage"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "comcast-linear-stage-next",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-comcast-linear-stage-next"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "comcast-linear-stage-next-secondary",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-comcast-linear-stage-next-secondary"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "comcast-linear-stage-secondary",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-comcast-linear-stage-secondary"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "nsteza-lab",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-nsteza-lab"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "portworx",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-portworx"
+    },
+    {
+      "cluster": "anvil-sit-linear-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-linear-stage-01-rdei-system"
+    },
+    {
+      "cluster": "shaw-barlow-stage-01",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "shaw-barlow-stage-01-rdei-system"
+    },
+    {
+      "cluster": "anvil-qa-long",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-qa-long-rdei-system"
+    },
+    {
+      "cluster": "anvil-sit-02",
+      "namespace": "andawg-locust",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-02-andawg-locust"
+    },
+    {
+      "cluster": "anvil-sit-02",
+      "namespace": "blockrunner",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-02-blockrunner"
+    },
+    {
+      "cluster": "anvil-sit-02",
+      "namespace": "rdei-system",
+      "user": "cool_dude_1977",
+      "name": "anvil-sit-02-rdei-system"
+    }
+  ],
+  "preferences": {},
+  "users": {
+    "name": "cool_dude_1977",
+    "user": {
+      "token": "64c96d8a-3239-11ea-9313-3af9d322b81e"
+    }
+  }
+}
